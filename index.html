@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./arqs.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <div class="container-moran">
+            <label for="">Valor kilos Morango</label>
+            <input type="text" size="5" id="idKiloMoran">
+            <label for="">Valor de desconto</label>
+            <input type="text" size="5" id="idDescMoran" disabled>
+            <label for="">Total a ser pago Morango</label>
+            <input type="text" size="5" id="idTotalMora" disabled>
+        </div>
+        <div class="container-moran">
+            <label for="">Valor kilos Pera</label>
+            <input type="text" size="5" id="idKiloPera">
+            <label for="">Valor de desconto</label>
+            <input type="text" size="5" id="idDescPera"disabled>
+            <label for="">Total a ser pago Pera</label>
+            <input type="text" size="5" id="idTotalPera" disabled>
+        </div>
+        <div class="container-moran">
+            <label for="">Valor kilos Maça</label>
+            <input type="text" size="5" id="idKiloMaca">
+            <label for="">Valor de desconto</label>
+            <input type="text" size="5" id="idDescMaca"disabled>
+            <label for="">Total a ser pago Maça</label>
+            <input type="text" size="5" id="idTotalMaca" disabled>
+        </div>
+        <div>
+            <label for="">Total a ser pago</label>
+            <input type="text" id="idTotal" size="5"disabled>
+            <input type="button" size="5" value="Calcular" onclick="calc()">
+            <input type="button" size="5" value="Limpar" onclick="limp()">
+        </div>
+    </section>
+</body>
+</html>
